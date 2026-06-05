@@ -49,7 +49,7 @@ HTTP POST { "token": "ETH" }
 
 ```bash
 git clone https://github.com/aniketsahu115/chainlink-cre-assignment
-cd chainlink-cre-assignment
+cd chainlink-cre-assignment/my-workflow
 npm install
 ```
 
