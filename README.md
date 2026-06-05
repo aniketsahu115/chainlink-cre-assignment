@@ -34,12 +34,12 @@ HTTP POST { "token": "ETH" }
 
 ## Prerequisites
 
-| Tool | Version | Link |
-|------|---------|------|
-| Node.js | ≥ 20 | https://nodejs.org |
-| CRE CLI | latest | https://docs.chain.link/cre/getting-started/cli-installation |
-| Foundry | latest | https://getfoundry.sh |
-| Sepolia ETH | — | https://faucets.chain.link/sepolia |
+| Tool | Link |
+|------|------|
+| Bun.js | https://bun.com/docs/installation |
+| CRE CLI| https://docs.chain.link/cre/getting-started/cli-installation |
+| Foundry| https://getfoundry.sh |
+| Sepolia ETH | https://faucets.chain.link/sepolia |
 
 ---
 
@@ -189,7 +189,7 @@ struct Record {
 
 ### 1. How the workflow reads a Chainlink Data Feed
 
-The workflow uses the **EVM Read capability** (`EVMClient.callContract`) to call `latestRoundData()` on the AggregatorV3Interface at the feed address. This is a consensus-verified read: every node in the Workflow DON executes the call independently, and results are compared via BFT consensus before being returned—eliminating any single point of failure.
+The workflow uses the **EVM Read capability** (`EVMClient.callContract`) to call `latestRoundData()` on the AggregatorV3Interface at the feed address. This is a consensus-verified read: every node in the Workflow DON executes the call independently, and results are compared via BFT consensus before being returned eliminating any single point of failure.
 
 ### 2. How `latestRoundData()` is decoded
 
