@@ -1,3 +1,10 @@
 {
-  "schedule": "*/30 * * * * *"
+  "chainName": "ethereum-testnet-sepolia",
+  "snapshotRecorderAddress": "0x01D3a73C88cFd777420a6d8d86d44d1FEF69205F",
+  "gasLimit": "500000",
+  "feeds": {
+    "ETH":  "0x694AA1769357215DE4FAC081bf1f309aDC325306",
+    "BTC":  "0x1b44F3514812d835EB1BDB0acB33d3fA3351Ee43",
+    "LINK": "0xc59E3633BAAC79493d908e63626716e204A45EdF"
+  }
 }
