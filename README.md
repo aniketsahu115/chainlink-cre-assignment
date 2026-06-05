@@ -112,7 +112,7 @@ forge verify-contract $SNAPSHOT_RECORDER_ADDRESS \
 ## Simulate the Workflow
 
 ```bash
-cre workflow simulate snapshot-workflow --broadcast
+cre workflow simulate my-workflow --broadcast
 ```
 ### Dry-run (no real transaction broadcast)
 
