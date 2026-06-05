@@ -1,1 +1,7 @@
+node_modules/
+dist/
 *.env
+secrets.yaml
+out/
+cache/
+broadcast/
