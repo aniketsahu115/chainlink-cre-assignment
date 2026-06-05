@@ -6,3 +6,4 @@ out/
 cache/
 broadcast/
 lib/
+**/.cre_build_tmp.js
