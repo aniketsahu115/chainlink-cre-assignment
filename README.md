@@ -98,7 +98,7 @@ The script prints the deployed address. Copy it and:
 
 1. Set `SNAPSHOT_RECORDER_ADDRESS` in `.env`
 2. Replace `"REPLACE_WITH_DEPLOYED_CONTRACT_ADDRESS"` in  
-   `workflows/snapshot-workflow/config.staging.json`
+   `my-workflows/config.staging.json`
 
 ### (Optional) Verify on Etherscan
 
