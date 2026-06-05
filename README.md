@@ -51,6 +51,7 @@ HTTP POST { "token": "ETH" }
 git clone https://github.com/aniketsahu115/chainlink-cre-assignment
 cd chainlink-cre-assignment/my-workflow
 npm install
+cd .. 
 ```
 
 ### 2. Set up environment
