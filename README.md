@@ -198,14 +198,3 @@ CRE writes data via the `KeystoneForwarder`, a Chainlink contract that validates
 | `EVMClient.writeReport()` | **Capability** (EVM Write) | Submits the signed report to the KeystoneForwarder |
 
 ---
-
-## Environment Variables Reference
-
-| Variable | Required | Description |
-|----------|----------|-------------|
-| `SEPOLIA_RPC_URL` | Yes | Sepolia JSON-RPC endpoint (used in `project.yaml`) |
-| `DEPLOYER_PRIVATE_KEY` | Yes (deploy) | Wallet private key for Foundry deployment |
-| `SNAPSHOT_RECORDER_ADDRESS` | After deploy | Deployed contract address (update config.staging.json too) |
-| `ETHERSCAN_API_KEY` | No | For Etherscan contract verification |
-
-`secrets.yaml` → `privateKey` — wallet used by the CRE simulator for write transactions.
