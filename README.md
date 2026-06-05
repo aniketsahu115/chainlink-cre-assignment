@@ -50,7 +50,7 @@ HTTP POST { "token": "ETH" }
 ```bash
 git clone https://github.com/aniketsahu115/chainlink-cre-assignment
 cd chainlink-cre-assignment/my-workflow
-npm install
+bun install
 cd .. 
 ```
 
@@ -133,8 +133,6 @@ The exact command required by the assignment:
 ```bash
 cre workflow simulate snapshot-workflow --broadcast
 ```
-
-> If your `project.yaml` has only one target the `--target` flag can be omitted.
 
 ---
 
