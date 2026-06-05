@@ -111,21 +111,6 @@ forge verify-contract $SNAPSHOT_RECORDER_ADDRESS \
   --constructor-args $(cast abi-encode "constructor(address)" 0x2ED413D5e63563F6bA5f9B4DEF2EA0Aae6f25e05)
 ```
 
----
-
-## Configure CRE
-
-### Register a target (first time only)
-
-```bash
-cre login
-# Follow the prompts to create or link your organisation
-```
-
-The `project.yaml` and `workflow.yaml` files are already configured for `staging-settings` on `ethereum-testnet-sepolia`.
-
----
-
 ## Simulate the Workflow
 
 ### Dry-run (no real transaction broadcast)
