@@ -103,6 +103,7 @@ The script prints the deployed address. Copy it and:
 ### (Optional) Verify on Etherscan
 
 ```bash
+source .env
 forge verify-contract $SNAPSHOT_RECORDER_ADDRESS \
   contracts/SnapshotRecorder.sol:SnapshotRecorder \
   --chain-id 11155111 \
