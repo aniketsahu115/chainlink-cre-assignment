@@ -114,22 +114,6 @@ forge verify-contract $SNAPSHOT_RECORDER_ADDRESS \
 ```bash
 cre workflow simulate my-workflow --broadcast
 ```
-### Dry-run (no real transaction broadcast)
-
-```bash
-cre workflow simulate my-workflow \
-  --target staging-settings \
-  --http-payload my-workflow/payload.json
-```
-
-### With real on-chain write (`--broadcast`)
-
-```bash
-cre workflow simulate my-workflow \
-  --target staging-settings \
-  --http-payload my-workflow/payload.json \
-  --broadcast
-```
 
 ---
 
