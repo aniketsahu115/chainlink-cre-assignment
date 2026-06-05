@@ -5,9 +5,12 @@ libs = ["lib"]
 solc_version = "0.8.20"
 optimizer = true
 optimizer_runs = 200
+remappings = [
+    "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/"
+]
 
 [rpc_endpoints]
 sepolia = "${SEPOLIA_RPC_URL}"
-remappings = ["@openzeppelin/=lib/openzeppelin-contracts/"]
+
 [etherscan]
 sepolia = { key = "${ETHERSCAN_API_KEY}", url = "https://api-sepolia.etherscan.io/api" }
