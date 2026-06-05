@@ -13,4 +13,4 @@ remappings = [
 sepolia = "${SEPOLIA_RPC_URL}"
 
 [etherscan]
-sepolia = { key = "${ETHERSCAN_API_KEY}", url = "https://api-sepolia.etherscan.io/v2/api" }
+sepolia = { key = "${ETHERSCAN_API_KEY}", url = "https://api.etherscan.io/v2/api?chainid=11155111" }
