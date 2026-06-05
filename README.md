@@ -64,8 +64,6 @@ cp secrets.yaml.example secrets.yaml
 # Edit secrets.yaml and fill in your privateKey (no 0x prefix)
 ```
 
-> **Security:** `.env` and `secrets.yaml` are in `.gitignore`. Never commit them.
-
 ### 3. Log in to CRE
 
 ```bash
