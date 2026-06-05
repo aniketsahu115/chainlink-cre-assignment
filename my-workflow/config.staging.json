@@ -1,6 +1,6 @@
 {
   "chainName": "ethereum-testnet-sepolia",
-  "snapshotRecorderAddress": "0x01D3a73C88cFd777420a6d8d86d44d1FEF69205F",
+  "snapshotRecorderAddress": "0xCFd03DB7D1aF09FFDccf7e9B4430DC08052e4a80",
   "gasLimit": "500000",
   "feeds": {
     "ETH":  "0x694AA1769357215DE4FAC081bf1f309aDC325306",
