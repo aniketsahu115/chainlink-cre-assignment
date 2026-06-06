@@ -2,7 +2,6 @@
 
 A Chainlink Runtime Environment (CRE) workflow that reads the current USD price of a token from a Chainlink Data Feed on Ethereum Sepolia and records it on-chain via a consumer contract.
 
----
 
 ## Architecture
 
@@ -29,8 +28,6 @@ HTTP POST { "token": "ETH" }
           SnapshotRecorder.onReport()
           stores: token, price, blockNumber, timestamp
 ```
-
----
 
 ## Prerequisites
 
